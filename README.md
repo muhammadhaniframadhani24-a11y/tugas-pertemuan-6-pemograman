@@ -1,11 +1,14 @@
-# TUGAS PEMOGRAMAN PERTEMUAN 6
-NAMA : muhammad hanif ramadhani
-KELAS: TI25C5
-NIM  : 312510291
-Daftar Isi
+# Laporan Praktikum 2
+Struktur Kondisi - Python
+Nama: MUHAMMAD HANIF RAMADHANI
+NIM: 312510191
+Kelas: T1C5
+
+# Daftar Isi
 
 Kasus 1: Program Pemesanan Tiket Bioskop
 Kasus 2: Program Kalkulator Sederhana
+
 
 Kasus 1: Program Pemesanan Tiket Bioskop
 Deskripsi
@@ -15,7 +18,7 @@ Tiket Reguler: Rp 50.000
 Tiket VIP: Rp 100.000
 Diskon 20% untuk member
 
-Algoritma
+# Algoritma
 
 START
 Input tipe tiket (reguler/vip) dari user
@@ -26,16 +29,18 @@ JIKA tipe_tiket = "reguler" MAKA harga = 50000
 JIKA tipe_tiket = "vip" MAKA harga = 100000
 JIKA TIDAK, harga = 0 (invalid)
 
+
 Hitung diskon:
 
 JIKA status_member = "y" MAKA diskon = 20%
 JIKA TIDAK, diskon = 0%
 
+
 Hitung total: total = harga - (harga × diskon)
 Tampilkan detail pemesanan dan total harga
 END
 
-Flowchart
+# Flowchart
         ┌─────────┐
         │  START  │
         └────┬────┘
@@ -171,19 +176,25 @@ Struktur Kondisi if-elif-else:
 Memeriksa tipe tiket yang dipilih
 Menentukan harga berdasarkan tipe
 
+
 Operator Ternary:
 
 diskon = 0.2 if status_member == "y" else 0
 Sintaks singkat untuk memberikan nilai diskon
 
+
 Perhitungan:
 
 Total = harga - (harga × diskon)
+
 
 Format Output:
 
 Menggunakan f-string untuk format yang rapi
 :, untuk menambahkan separator ribuan
+
+
+
 
 Kasus 2: Program Kalkulator Sederhana
 Deskripsi
@@ -210,12 +221,14 @@ JIKA operator = "/" MAKA
 JIKA angka2 ≠ 0 MAKA hasil = angka1 ÷ angka2
 JIKA TIDAK, tampilkan error
 
+
 JIKA TIDAK, operator tidak valid
+
 
 Tampilkan hasil perhitungan
 END
 
-Flowchart
+# Flowchart
         ┌─────────┐
         │  START  │
         └────┬────┘
@@ -398,26 +411,35 @@ Input Data:
 Menggunakan float() untuk menerima bilangan desimal
 Input operator sebagai string
 
+
 Struktur Kondisi if-elif-else:
 
 Memeriksa operator yang dipilih secara berurutan
 Setiap kondisi melakukan operasi aritmatika yang sesuai
+
 
 Validasi Pembagian:
 
 Nested if untuk memeriksa pembagian dengan nol
 Mencegah error division by zero
 
+
 Error Handling:
 
 Menggunakan hasil = None untuk menandai operasi invalid
 Menampilkan pesan error yang jelas
 
+
 Output:
 
 Menampilkan nama operasi, kedua angka, dan hasil
 Menggunakan conditional untuk menampilkan hasil hanya jika valid
+
+
+
+
 Cara Menjalankan Program
+
 Clone repository:
 
 bash   git clone [URL_REPOSITORY]
@@ -428,6 +450,7 @@ Jalankan program:
 bash   python3 praktikum2.py
 
 Ikuti instruksi input yang muncul di layar
+
 
 Struktur Repository
 labpy02/
